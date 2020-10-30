@@ -1,1 +1,86 @@
 /* Put your style information here! */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    padding: 50px 100px;
+    /* background-color:#f7f7f7; */
+}
+p {
+    width: 80%;
+    font-size: 17px;
+    text-align: justify;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 20px 0;
+    color: #83c795;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title {
+    font-size: 60px;
+}
+li {
+    padding: 7px 0;
+}
+.screenshot {
+    width: 1200px;
+}
+.bwebpage {
+    padding: 20px 0;
+}
+.buttonCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+.linkButton {
+    color: white;
+    background-color: #83c795;
+    padding: 12px 40px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border-bottom: 2px solid#a6deb5;
+    transition: background 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.linkButton:hover{
+    background-color: #a6deb5
+}
+.infographicimg {
+    margin-left: 30%;
+    width: 500px;
+    padding: 30px;
+}
+
+.hypothesesflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 200px 20px 250px;
+}
+
+.explanation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 150px;
+}
+section {
+    padding: 30px 0;
+}
